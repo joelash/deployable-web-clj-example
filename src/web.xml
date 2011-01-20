@@ -1,0 +1,12 @@
+<web-app>
+  <!-- Servlet class taken from first :aot namespace -->
+  <servlet>
+     <servlet-name>clj-deployable-web</servlet-name>
+     <servlet-class>clj_deployable_web.deploy.servlet</servlet-class>
+  </servlet>
+  <!-- Servlet is mapped to / by default  -->
+  <servlet-mapping>
+     <servlet-name>clj-deployable-web</servlet-name>
+     <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+</web-app>

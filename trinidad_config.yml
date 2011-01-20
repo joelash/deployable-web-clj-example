@@ -1,0 +1,9 @@
+--- 
+port: 8080
+jruby_min_runtimes: 1
+jruby_max_runtimes: 1
+default_web_xml: web.xml
+web_apps: 
+  clj-web:
+    context_path: '/clj-deployable-web-1.0.0-SNAPSHOT.war'
+    web_app_dir: 'clj-deployable-web-1.0.0-SNAPSHOT.war'
