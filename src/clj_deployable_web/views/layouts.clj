@@ -1,6 +1,7 @@
 (ns clj-deployable-web.views.layouts
   (:use [hiccup.core]
-        [hiccup.page-helpers]))
+        [hiccup.page-helpers])
+  (:require [clj-deployable-web.config :as config]))
 
 (defn with-layout [& contents]
   (html5
@@ -9,4 +10,5 @@
     (include-css "public/css/main.css")]
    [:body
     [:h1.welcome "Welcome to this web thingy!"]
-    [:div#contents contents]]))
+    [:div#contents contents]
+    [:div#footer "Environment is " config/environment]]))
