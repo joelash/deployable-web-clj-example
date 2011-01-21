@@ -5,6 +5,12 @@
      <servlet-class>clj_deployable_web.deploy.servlet</servlet-class>
   </servlet>
   <!-- Servlet is mapped to / by default  -->
+
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/public/*</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
      <servlet-name>clj-deployable-web</servlet-name>
      <url-pattern>/*</url-pattern>
