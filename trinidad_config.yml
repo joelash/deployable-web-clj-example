@@ -8,4 +8,10 @@ web_apps:
   clj-web:
     default_web_xml: web.xml
     context_path: '/clj-deployable-web-1.0.0-SNAPSHOT.war'
+    # context_path: /example.war
+    # context_path can be whatever you'd like the app to show up as in trinidad. It must 
+    # 1) start with '/'
+    # 2) end with '.war'
+    # TRY: switch the two context paths and restart trinidad. Go to http://localhost:8080/example/
+    # and you'll see the app there now
     web_app_dir: 'clj-deployable-web-1.0.0-SNAPSHOT.war'

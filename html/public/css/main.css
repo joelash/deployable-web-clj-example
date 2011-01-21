@@ -1,4 +1,10 @@
 div.controller-data {
+    font-size: 23px;
     border: 1px solid grey;
-    width: 300px;
+    width: 310px;
+}
+
+div#footer {
+    font-size: 12px;
+    color: light-grey;
 }
