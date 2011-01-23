@@ -7,16 +7,16 @@ Usage
 ---------
 
 * install dependencies
-  lein deps
+        lein deps
 
 * Run the server in development
-  lein run :server 
+        lein run :server 
 
 * Build the war
-  lein war
+        lein war
 
 * run the app from war
-  jruby -S trinidad --config trinidad_config.yml
+        jruby -S trinidad --config trinidad_config.yml
  
 
 License
