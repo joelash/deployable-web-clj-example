@@ -1,4 +1,5 @@
-= clj-deployable-web
+clj-deployable-web
+=============
 
 This is an example web application developed in Clojure using Compojure. I've set this app up to be deployable via a war (using [https://github.com/alienscience/leiningen-war leiningen-war] plugin). The war is setup such that it can be deployed in the [https://github.com/calavera/trinidad trinidad] container, which runs on tomcat, and tomcat will serve static files needed by the application.
 
