@@ -14,7 +14,7 @@
   (if pred
     (apply wrapper handler args)
     handler))
-;;end middleware
+;; end middleware
 
 ;; routes
 (defroutes clj-web-routes
